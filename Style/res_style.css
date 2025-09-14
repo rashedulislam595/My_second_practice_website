@@ -1,0 +1,208 @@
+/* Responsive style for another deivice */
+
+/* laptop device */
+@media screen and (max-width:1200px){
+    #searchd{
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    }
+.btn{
+    padding: 10px 12px;
+    font-size: 15px;
+    }
+
+    /* 1st container */
+h1{
+    font-size: 40px ;
+    margin-bottom: 15px;
+    }
+
+    /* 2nd container */
+#sec-cont-img p{
+    font-size: 13px;
+    margin: 15px 0px;
+    }
+
+    /* 3rd container */
+#third header p {
+    font-size: 14px;
+    margin-top: 15px;
+    }
+
+    /* 4th container */
+#four p {
+    font-size: 15px;
+    margin-top: 10px;
+    }
+
+.card {
+    width: 220px;
+    }
+
+
+}
+
+/* tablet pc */
+@media screen and (max-width:900px) {
+    .btn {
+        width:170px ;
+        padding: 7px 6px;
+        font-size: 15px;
+        }
+
+    #searchd {
+        width: 200px;
+        }
+
+    /* 1st */
+    p {
+        font-size: 12px;
+        }
+
+    .card {
+        width: 200px;
+        }
+
+    ul{
+        gap: 25px;
+        }
+}
+
+/* Androide medium/largest */
+@media screen and (max-width:768px) {
+    #searchd  {
+        width: 100px;
+    }
+
+    #heding p {
+    font-size: 9px;
+    }
+
+    .btn {
+        width: 120px;
+        padding: 7px 6px;
+        font-size: 10px;
+        box-shadow: 1px 1px 5px;
+    
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 9px;
+    }
+
+    #sec-cont-img{
+        flex-direction: column-reverse;
+    }
+
+    #sec-cont-img p{
+    font-size: 9px;
+    }
+
+    #sec-cont{
+        margin-top: 30px;
+    }
+
+    #sec-cont .btn{
+        margin-left: 100px;
+    }
+
+
+    #third header p {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+
+    #youtube iframe{
+        height: 350px;
+    }
+
+    #four p {
+        font-size: 9px;
+    }
+
+    #four-card {
+    flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    h5{
+        font-size: 8px;
+    }
+
+    ul{
+    gap: 10px;
+    }
+}
+
+/* androide small  */
+@media screen and (max-width:480px) {
+    *{
+        align-items: center;
+    }
+    
+
+    .btn {
+        width: 80px;
+        padding: 5px 5px;
+        font-size: 10px;
+        box-shadow: 1px 1px 5px;
+    }
+
+    #contain img{
+    width: 100%;
+    }
+    #contain {
+    padding: 40px 10px;
+    margin: 100px auto;
+    }
+
+    #contain{
+        width: 300px;
+    }
+
+    img {
+    width: 100%;
+    }
+
+    #youtube {
+    padding: 20px;
+    }
+
+    #youtube iframe{
+        height: 350px;
+    }
+
+    #heding P{
+        font-size: 7px;
+    }
+
+    .card img{
+        width: 40%;
+    }
+
+    h5 {
+        font-size: 5px;
+    }
+
+    ul img{
+        width: 50%;
+        
+    }
+
+    ul{
+    gap: 0px;
+   
+    }
+
+
+}
